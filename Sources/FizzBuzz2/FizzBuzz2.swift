@@ -3,10 +3,6 @@ public struct FizzBuzz2 {
 
     public init() {
     }
-
-    func lineNumber(number: Int) -> String {
-        return String(number)
-    }
 }
 
 
@@ -19,5 +15,5 @@ public struct FizzBuzz2 {
  Green
  Refactor
 
-
+ 
  */
