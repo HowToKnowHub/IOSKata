@@ -15,5 +15,6 @@ public struct FizzBuzz2 {
  Green
  Refactor
 
- 
+ Kata: https://www.sammancoaching.org/kata_descriptions/fizzbuzz.html
+
  */
