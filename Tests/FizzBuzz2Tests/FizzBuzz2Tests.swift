@@ -11,7 +11,6 @@ final class FizzBuzz2Tests: XCTestCase {
 
     func testForThree() throws {
         XCTAssertEqual(FizzBuzz2().checkMultiplesFromOneToHundred(number: 3), "Fizz")
-
     }
 
     func testForFour() throws {

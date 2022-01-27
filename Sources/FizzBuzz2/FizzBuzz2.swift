@@ -5,16 +5,18 @@ public struct FizzBuzz2 {
     }
 
     func checkMultiplesFromOneToHundred(number:Int) -> String {
-      if (number % 3 == 0 && number % 5 == 0) {
-          return "FizzBuzz"
-      } else if number % 3 == 0 {
-           return "Fizz"
-       } else if number % 5 == 0 {
-           return  "Buzz"
-       } else {
-           return String(number)
-       }
+        var returnedString = ""
 
+      if ( number % 3 == 0 ) {
+        returnedString = "Fizz"
+      }
+      if ( number % 5 == 0 ) {
+          returnedString = returnedString + "Buzz"
+      }
+      if returnedString.isEmpty {
+        return String(number)
+      }
+        return returnedString
     }
 
 }
@@ -32,8 +34,10 @@ public struct FizzBuzz2 {
  Kata: https://www.sammancoaching.org/kata_descriptions/fizzbuzz.html
 line method
 
- Typist - Laique
- Navigator - Pandu
- Next Navigator- Gautham
+Manoj
+* Pandu
+Gautham
+Next - Laique
+
  *
  */
