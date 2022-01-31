@@ -3,12 +3,25 @@ public struct FizzBuzz2 {
 
     public init() {
     }
+
+    func lineNumber( number: Int) -> String? {
+        if number % 3 == 0 {
+            return "Fizz"
+        }
+
+        return String(number)
+    }
 }
 
 
 /*
- Repeate
- Navigator/typist(driver)
+hello
+ Navigator/typist(driver)/next/ensamble
+
+ Haider
+ Next - Patrik
+ Khaled
+ Raul
 
  Overiview
  Red
