@@ -13,6 +13,10 @@ public struct FizzBuzz2 {
       if ( number % 5 == 0 ) {
           returnedString = returnedString + "Buzz"
       }
+        if (number % 7 == 0 ) {
+            returnedString = "Whizz"
+        }
+
       if returnedString.isEmpty {
         return String(number)
       }
@@ -23,6 +27,9 @@ public struct FizzBuzz2 {
 
 
 /*
+
+ ||
+
  Repeate
  Navigator/typist(driver)
 
@@ -34,10 +41,15 @@ public struct FizzBuzz2 {
  Kata: https://www.sammancoaching.org/kata_descriptions/fizzbuzz.html
 line method
 
-Manoj
-* Pandu
-Gautham
-Next - Laique
 
+* Pandu
+* Gautham
+* Laique
+*Manoj
+Pandu
+Surendra
+Lique
+
+next - Patrik
  *
  */

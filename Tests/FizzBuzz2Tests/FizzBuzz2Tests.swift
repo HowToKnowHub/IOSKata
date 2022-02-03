@@ -28,4 +28,12 @@ final class FizzBuzz2Tests: XCTestCase {
     func testForFifteen() throws {
         XCTAssertEqual(FizzBuzz2().checkMultiplesFromOneToHundred(number: 15), "FizzBuzz")
     }
+
+    func testForSeven() throws {
+        XCTAssertEqual(FizzBuzz2().checkMultiplesFromOneToHundred(number: 7), "Whizz")
+    }
+
+    func testForEleven() throws {
+        XCTAssertEqual(FizzBuzz2().checkMultiplesFromOneToHundred(number: 11), "7")
+    }
 }
