@@ -5,23 +5,30 @@ public struct FizzBuzz2 {
     }
 
     func lineNumber( number: Int) -> String? {
-        if number % 3 == 0 {
-            return "Fizz"
-        }
 
-        return String(number)
+        switch true {
+          case number % 3 == 0 && number % 5 == 0: return "FizzBuzz"
+          case  number % 3 == 0: return "Fizz"
+          case number % 5 == 0: return "Buzz"
+          default: return String(number)
+        }
     }
 }
 
 
 /*
+
+ ||
 hello
  Navigator/typist(driver)/next/ensamble
 
- Haider
- Next - Patrik
  Khaled
+ Shivankit
+
  Raul
+ Haider
+
+
 
  Overiview
  Red
