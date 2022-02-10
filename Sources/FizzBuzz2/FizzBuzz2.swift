@@ -11,17 +11,22 @@ public struct FizzBuzz2 {
         returnedString = "Fizz"
       }
       if ( number % 5 == 0 ) {
-          returnedString = returnedString + "Buzz"
+          returnedString += "Buzz"
       }
         if (number % 7 == 0 ) {
-            returnedString = "Whizz"
+            returnedString += "Whizz"
+        }
+        if (number % 11 == 0 ) {
+            returnedString += "Bang"
         }
 
       if returnedString.isEmpty {
-        return String(number)
+        returnedString += String(number)
       }
+        print(returnedString)
         return returnedString
     }
+
 
 }
 
@@ -42,13 +47,16 @@ public struct FizzBuzz2 {
 line method
 
 
-* Pandu
-* Gautham
-* Laique
-*Manoj
 Pandu
-Surendra
-Lique
+Gawtham
+Laique
+* Priya
+Next -Patrik
+
+* Manoj
+* Pandu
+*Surendra
+
 
 next - Patrik
  *

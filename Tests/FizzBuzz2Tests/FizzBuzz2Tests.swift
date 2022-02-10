@@ -1,6 +1,19 @@
 import XCTest
 @testable import FizzBuzz2
 
+/*
+ 3 -> Fizz
+ 4 -> 4
+ 5 -> Buzz
+ 6 -> Fizz
+ 15 -> FizzBuzz
+ 7 -> Whizz
+ 11 -> Bang
+ 21 -> FizzWhizz
+ 10 -> Buzz
+ 55 -> BuzzBang
+ 30 -> FizzBuzz
+ */
 final class FizzBuzz2Tests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
@@ -34,6 +47,22 @@ final class FizzBuzz2Tests: XCTestCase {
     }
 
     func testForEleven() throws {
-        XCTAssertEqual(FizzBuzz2().checkMultiplesFromOneToHundred(number: 11), "7")
+        XCTAssertEqual(FizzBuzz2().checkMultiplesFromOneToHundred(number: 11), "Bang")
+    }
+
+    func testForTwentyOne() throws {
+        XCTAssertEqual(FizzBuzz2().checkMultiplesFromOneToHundred(number: 21), "FizzWhizz")
+    }
+
+    func testForTen() throws {
+        XCTAssertEqual(FizzBuzz2().checkMultiplesFromOneToHundred(number: 10), "Buzz")
+    }
+
+    func testForFiftyFive() throws {
+        XCTAssertEqual(FizzBuzz2().checkMultiplesFromOneToHundred(number: 55), "BuzzBang")
+    }
+
+    func testFizzBuzzWhizzBang() throws {
+        XCTAssertEqual(FizzBuzz2().checkMultiplesFromOneToHundred(number: 1155), "FizzBuzzWhizzBang")
     }
 }
