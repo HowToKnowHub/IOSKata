@@ -20,6 +20,7 @@ final class FizzBuzz2Tests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
         XCTAssertEqual(FizzBuzz2().text, "Hello, World!")
+        //test
     }
 
     func testForThree() throws {
